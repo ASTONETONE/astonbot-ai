@@ -24,7 +24,7 @@ const Botinput= ({ message, setMessage }) => {
         else if(userText.includes("how are you doing") || userText.includes("how is you") || userText.includes("is you")){
             botchat = "Am doing great, thanks for asking 🥰";
         }
-        else if(userText.includes("day") || userText.includes("time") || userText.includes("is the time") || userText.includes("is today") || userText.includes("today")){
+        else if(userText.includes("day") || userText.includes("time") || userText.includes("is the time") || userText.includes("is today") || userText.includes("today") || userText.includes("date")){
             const now = new Date();
             const day = now.toDateString();
             const time = now.toTimeString();
